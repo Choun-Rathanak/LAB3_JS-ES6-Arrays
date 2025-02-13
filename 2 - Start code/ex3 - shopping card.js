@@ -47,7 +47,7 @@ function addProductToCart(productId) {
   if(item){
     item.quantity +=1;
   }else{
-    SHOPPING_CART.push({id: productId , quantity:2});
+    SHOPPING_CART.push({id: productId , quantity:1});
   }
 }
 
